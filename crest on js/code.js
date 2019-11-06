@@ -91,7 +91,25 @@ function change1()
      document.getElementById('myButton1').className = 'formatForButtonX';
      var x1 = 1;
      this.x1 = x1;
-      
+      if( document.getElementById('myButton2').className == "" && document.getElementById('myButton2').className != "X"  ){
+        document.getElementById('myButton2').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton2");
+  elem.value = "O";              
+    
+       
+   }else if( document.getElementById('myButton4').className == "" && document.getElementById('myButton4').className != "X"  ){
+        document.getElementById('myButton4').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton4");
+  elem.value = "O";
+   }else if( document.getElementById('myButton6').className == "" && document.getElementById('myButton6').className != "X"  ){
+        document.getElementById('myButton6').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton6");
+  elem.value = "O";
+   }else if( document.getElementById('myButton8').className == "" && document.getElementById('myButton8').className != "X"  ){
+        document.getElementById('myButton8').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton8");
+  elem.value = "O";
+   }
 }
  
  
@@ -111,10 +129,30 @@ function change2()
     if (elem.value=="empty") elem.value = "X";
     else elem.value = "O";
      document.getElementById('myButton2').className = 'formatForButtonX';
+    if( document.getElementById('myButton2').className == "" && document.getElementById('myButton2').className != "X"  ){
+        document.getElementById('myButton2').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton2");
+  elem.value = "O";              
+    
+       
+   }else if( document.getElementById('myButton4').className == "" && document.getElementById('myButton4').className != "X"  ){
+        document.getElementById('myButton4').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton4");
+  elem.value = "O";
+   }else if( document.getElementById('myButton6').className == "" && document.getElementById('myButton6').className != "X"  ){
+        document.getElementById('myButton6').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton6");
+  elem.value = "O";
+   }else if( document.getElementById('myButton8').className == "" && document.getElementById('myButton8').className != "X"  ){
+        document.getElementById('myButton8').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton8");
+  elem.value = "O";
+   }
 }
 function change22(){
     document.getElementById('myButton2').className = 'formatForButtonO';
   document.getElementById("myButton2").innerHTML = "O";
+    
 }
 // for button 2 end
 
@@ -126,6 +164,25 @@ function change3()
     if (elem.value=="empty") elem.value = "X";
     else elem.value = "O";
      document.getElementById('myButton3').className = 'formatForButtonX';
+    if( document.getElementById('myButton2').className == "" && document.getElementById('myButton2').className != "X"  ){
+        document.getElementById('myButton2').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton2");
+  elem.value = "O";              
+    
+       
+   }else if( document.getElementById('myButton4').className == "" && document.getElementById('myButton4').className != "X"  ){
+        document.getElementById('myButton4').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton4");
+  elem.value = "O";
+   }else if( document.getElementById('myButton6').className == "" && document.getElementById('myButton6').className != "X"  ){
+        document.getElementById('myButton6').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton6");
+  elem.value = "O";
+   }else if( document.getElementById('myButton8').className == "" && document.getElementById('myButton8').className != "X"  ){
+        document.getElementById('myButton8').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton8");
+  elem.value = "O";
+   }
      
 }
 function change33(){
@@ -143,6 +200,25 @@ function change4()
     if (elem.value=="empty") elem.value = "X";
     else elem.value = "O";
      document.getElementById('myButton4').className = 'formatForButtonX';
+    if( document.getElementById('myButton2').className == "" && document.getElementById('myButton2').className != "X"  ){
+        document.getElementById('myButton2').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton2");
+  elem.value = "O";              
+    
+       
+   }else if( document.getElementById('myButton4').className == "" && document.getElementById('myButton4').className != "X"  ){
+        document.getElementById('myButton4').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton4");
+  elem.value = "O";
+   }else if( document.getElementById('myButton6').className == "" && document.getElementById('myButton6').className != "X"  ){
+        document.getElementById('myButton6').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton6");
+  elem.value = "O";
+   }else if( document.getElementById('myButton8').className == "" && document.getElementById('myButton8').className != "X"  ){
+        document.getElementById('myButton8').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton8");
+  elem.value = "O";
+   }
 }
 function change44(){
     document.getElementById('myButton4').className = 'formatForButtonO';
@@ -157,6 +233,25 @@ function change5()
     if (elem.value=="empty") elem.value = "X";
     else elem.value = "O";
      document.getElementById('myButton5').className = 'formatForButtonX';
+    if( document.getElementById('myButton2').className == "" && document.getElementById('myButton2').className != "X"  ){
+        document.getElementById('myButton2').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton2");
+  elem.value = "O";              
+    
+       
+   }else if( document.getElementById('myButton4').className == "" && document.getElementById('myButton4').className != "X"  ){
+        document.getElementById('myButton4').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton4");
+  elem.value = "O";
+   }else if( document.getElementById('myButton6').className == "" && document.getElementById('myButton6').className != "X"  ){
+        document.getElementById('myButton6').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton6");
+  elem.value = "O";
+   }else if( document.getElementById('myButton8').className == "" && document.getElementById('myButton8').className != "X"  ){
+        document.getElementById('myButton8').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton8");
+  elem.value = "O";
+   }
 }
 function change55(){
     document.getElementById('myButton5').className = 'formatForButtonO';
@@ -171,6 +266,25 @@ function change6()
     if (elem.value=="empty") elem.value = "X";
     else elem.value = "O";
      document.getElementById('myButton6').className = 'formatForButtonX';
+    if( document.getElementById('myButton2').className == "" && document.getElementById('myButton2').className != "X"  ){
+        document.getElementById('myButton2').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton2");
+  elem.value = "O";              
+    
+       
+   }else if( document.getElementById('myButton4').className == "" && document.getElementById('myButton4').className != "X"  ){
+        document.getElementById('myButton4').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton4");
+  elem.value = "O";
+   }else if( document.getElementById('myButton6').className == "" && document.getElementById('myButton6').className != "X"  ){
+        document.getElementById('myButton6').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton6");
+  elem.value = "O";
+   }else if( document.getElementById('myButton8').className == "" && document.getElementById('myButton8').className != "X"  ){
+        document.getElementById('myButton8').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton8");
+  elem.value = "O";
+   }
 }
 function change66(){
     document.getElementById('myButton6').className = 'formatForButtonO';
@@ -185,6 +299,25 @@ function change7()
     if (elem.value=="empty") elem.value = "X";
     else elem.value = "O";
      document.getElementById('myButton7').className = 'formatForButtonX';
+    if( document.getElementById('myButton2').className == "" && document.getElementById('myButton2').className != "X"  ){
+        document.getElementById('myButton2').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton2");
+  elem.value = "O";              
+    
+       
+   }else if( document.getElementById('myButton4').className == "" && document.getElementById('myButton4').className != "X"  ){
+        document.getElementById('myButton4').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton4");
+  elem.value = "O";
+   }else if( document.getElementById('myButton6').className == "" && document.getElementById('myButton6').className != "X"  ){
+        document.getElementById('myButton6').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton6");
+  elem.value = "O";
+   }else if( document.getElementById('myButton8').className == "" && document.getElementById('myButton8').className != "X"  ){
+        document.getElementById('myButton8').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton8");
+  elem.value = "O";
+   }
 }
 function change77(){
     document.getElementById('myButton7').className = 'formatForButtonO';
@@ -199,6 +332,25 @@ function change8()
     if (elem.value=="empty") elem.value = "X";
     else elem.value = "O";
      document.getElementById('myButton8').className = 'formatForButtonX';
+    if( document.getElementById('myButton2').className == "" && document.getElementById('myButton2').className != "X"  ){
+        document.getElementById('myButton2').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton2");
+  elem.value = "O";              
+    
+       
+   }else if( document.getElementById('myButton4').className == "" && document.getElementById('myButton4').className != "X"  ){
+        document.getElementById('myButton4').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton4");
+  elem.value = "O";
+   }else if( document.getElementById('myButton6').className == "" && document.getElementById('myButton6').className != "X"  ){
+        document.getElementById('myButton6').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton6");
+  elem.value = "O";
+   }else if( document.getElementById('myButton8').className == "" && document.getElementById('myButton8').className != "X"  ){
+        document.getElementById('myButton8').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton8");
+  elem.value = "O";
+   }
 }
 function change88(){
     document.getElementById('myButton8').className = 'formatForButtonO';
@@ -213,6 +365,25 @@ function change9()
     if (elem.value=="empty") elem.value = "X";
     else elem.value = "O";
      document.getElementById('myButton9').className = 'formatForButtonX';
+    if( document.getElementById('myButton2').className == "" && document.getElementById('myButton2').className != "X"  ){
+        document.getElementById('myButton2').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton2");
+  elem.value = "O";              
+    
+       
+   }else if( document.getElementById('myButton4').className == "" && document.getElementById('myButton4').className != "X"  ){
+        document.getElementById('myButton4').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton4");
+  elem.value = "O";
+   }else if( document.getElementById('myButton6').className == "" && document.getElementById('myButton6').className != "X"  ){
+        document.getElementById('myButton6').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton6");
+  elem.value = "O";
+   }else if( document.getElementById('myButton8').className == "" && document.getElementById('myButton8').className != "X"  ){
+        document.getElementById('myButton8').className = 'formatForButtonO';
+    var elem = document.getElementById("myButton8");
+  elem.value = "O";
+   }
 }
 function change99(){
     document.getElementById('myButton9').className = 'formatForButtonO';
