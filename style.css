@@ -4,3 +4,10 @@
 .formatForButtonX {
   border: 4px solid #e34761;
    }
+#bot{
+display: none;
+}
+
+#startgame{
+display: none;
+}
